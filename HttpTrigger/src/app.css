@@ -1,0 +1,38 @@
+:root {
+    --primary-color: #00a4a6;
+}
+
+html, body {
+    margin: 0;
+    overflow: hidden;
+}
+
+body {
+    color: #353535;
+    margin: 0;
+    padding: 0;
+    font-family: 'Fauna One', serif;
+    font-size: 12pt;
+    line-height: 2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+    line-height: 1.2;
+}
+
+h1 {
+    font-weight: 3rem;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:    "header"
+                            "main";
+    grid-auto-flow: dense;
+}
+
+.main {
+    grid-area: main;
+}
