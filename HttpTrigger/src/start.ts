@@ -13,8 +13,7 @@ export async function start(host: Node, ...registrations: IRegistry[]): Promise<
 
   const au = new Aurelia()
     .register(
-      //RouterConfiguration.customize({ ...routeTransformer, useUrlFragmentHash: true }),
-      RouterConfiguration,
+      RouterConfiguration.customize({ ...routeTransformer, useUrlFragmentHash: true }),
       ...globalResources,
       ...registrations
     )
