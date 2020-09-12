@@ -29,7 +29,7 @@
     "markdown-it-footnote": "^3.0.2",
     "markdown-it-inline-comments": "^1.0.1",
     "markdown-it-meta": "0.0.1",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "tslib": "^1.10.0"
   },
   "devDependencies": {
